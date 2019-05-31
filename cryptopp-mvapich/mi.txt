@@ -1,0 +1,152 @@
+make  install-recursive
+make[1]: Entering directory `/home/gavahi/cryptopp-mvapich'
+Making install in /home/gavahi/cryptopp-mvapich/src/mpl
+make[2]: Entering directory `/home/gavahi/cryptopp-mvapich/src/mpl'
+make[3]: Entering directory `/home/gavahi/cryptopp-mvapich/src/mpl'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/mpl'
+make[2]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/mpl'
+Making install in /home/gavahi/cryptopp-mvapich/src/openpa
+make[2]: Entering directory `/home/gavahi/cryptopp-mvapich/src/openpa'
+Making install in src
+make[3]: Entering directory `/home/gavahi/cryptopp-mvapich/src/openpa/src'
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/src/openpa/src'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/home/gavahi/cryptopp-mvapich/install-mvapich/include'
+ /usr/bin/install -c -m 644 opa_primitives.h opa_queue.h opa_util.h '/home/gavahi/cryptopp-mvapich/install-mvapich/include'
+ /usr/bin/mkdir -p '/home/gavahi/cryptopp-mvapich/install-mvapich/include'
+ /usr/bin/mkdir -p '/home/gavahi/cryptopp-mvapich/install-mvapich/include/primitives'
+ /usr/bin/install -c -m 644  primitives/opa_by_lock.h primitives/opa_emulated.h primitives/opa_gcc_ia64.h primitives/opa_gcc_intel_32_64.h primitives/opa_gcc_intel_32_64_barrier.h primitives/opa_gcc_intel_32_64_ops.h primitives/opa_gcc_intel_32_64_p3.h primitives/opa_gcc_intel_32_64_p3barrier.h primitives/opa_gcc_intrinsics.h primitives/opa_gcc_ppc.h primitives/opa_gcc_sicortex.h primitives/opa_nt_intrinsics.h primitives/opa_sun_atomic_ops.h primitives/opa_unsafe.h '/home/gavahi/cryptopp-mvapich/install-mvapich/include/primitives'
+ /usr/bin/mkdir -p '/home/gavahi/cryptopp-mvapich/install-mvapich/include'
+ /usr/bin/install -c -m 644 opa_config.h '/home/gavahi/cryptopp-mvapich/install-mvapich/include'
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/openpa/src'
+make[3]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/openpa/src'
+Making install in test
+make[3]: Entering directory `/home/gavahi/cryptopp-mvapich/src/openpa/test'
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/src/openpa/test'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/openpa/test'
+make[3]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/openpa/test'
+make[3]: Entering directory `/home/gavahi/cryptopp-mvapich/src/openpa'
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/src/openpa'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/home/gavahi/cryptopp-mvapich/install-mvapich/lib/pkgconfig'
+ /usr/bin/install -c -m 644 openpa.pc '/home/gavahi/cryptopp-mvapich/install-mvapich/lib/pkgconfig'
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/openpa'
+make[3]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/openpa'
+make[2]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/openpa'
+Making install in src/mpi/romio
+make[2]: Entering directory `/home/gavahi/cryptopp-mvapich/src/mpi/romio'
+make[3]: Entering directory `/home/gavahi/cryptopp-mvapich/src/mpi/romio'
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/src/mpi/romio'
+ mkdir -p '/home/gavahi/cryptopp-mvapich/install-mvapich/include'
+ /usr/bin/install -c -m 644 include/mpio.h include/mpiof.h '/home/gavahi/cryptopp-mvapich/install-mvapich/include'
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/mpi/romio'
+make[3]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/mpi/romio'
+make[2]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/mpi/romio'
+Making install in src/pm/hydra
+make[2]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra'
+Making install in mpl
+make[3]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/mpl'
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/mpl'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/mpl'
+make[3]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/mpl'
+Making install in tools/topo/hwloc/hwloc
+make[3]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc'
+Making install in src
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc/src'
+make[5]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc/src'
+make  install-exec-hook
+make[6]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc/src'
+make[6]: Nothing to be done for `install-exec-hook'.
+make[6]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc/src'
+make[5]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc/src'
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc/src'
+Making install in include
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc/include'
+make[5]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc/include'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc/include'
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc/include'
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc'
+make[5]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc'
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc'
+make[3]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra/tools/topo/hwloc/hwloc'
+Making install in .
+make[3]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra'
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra'
+ mkdir -p '/home/gavahi/cryptopp-mvapich/install-mvapich/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c hydra_persist hydra_nameserver hydra_pmi_proxy mpiexec.hydra '/home/gavahi/cryptopp-mvapich/install-mvapich/bin'
+libtool: install: /usr/bin/install -c hydra_persist /home/gavahi/cryptopp-mvapich/install-mvapich/bin/hydra_persist
+libtool: install: /usr/bin/install -c hydra_nameserver /home/gavahi/cryptopp-mvapich/install-mvapich/bin/hydra_nameserver
+libtool: install: /usr/bin/install -c hydra_pmi_proxy /home/gavahi/cryptopp-mvapich/install-mvapich/bin/hydra_pmi_proxy
+libtool: install: /usr/bin/install -c mpiexec.hydra /home/gavahi/cryptopp-mvapich/install-mvapich/bin/mpiexec.hydra
+make  install-exec-hook
+make[5]: Entering directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra'
+if [ -x /home/gavahi/cryptopp-mvapich/install-mvapich/bin/mpiexec.hydra ] ; then \
+    cd /home/gavahi/cryptopp-mvapich/install-mvapich/bin && ln -f -s mpiexec.hydra mpiexec ; \
+    cd /home/gavahi/cryptopp-mvapich/install-mvapich/bin && ln -f -s mpiexec.hydra mpirun ; \
+fi
+make[5]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra'
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra'
+make[3]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra'
+make[2]: Leaving directory `/home/gavahi/cryptopp-mvapich/src/pm/hydra'
+Making install in contrib/hwloc
+make[2]: Entering directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc'
+Making install in src
+make[3]: Entering directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc/src'
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc/src'
+make  install-exec-hook
+make[5]: Entering directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc/src'
+make[5]: Nothing to be done for `install-exec-hook'.
+make[5]: Leaving directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc/src'
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc/src'
+make[3]: Leaving directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc/src'
+Making install in include
+make[3]: Entering directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc/include'
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc/include'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc/include'
+make[3]: Leaving directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc/include'
+make[3]: Entering directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc'
+make[4]: Entering directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Leaving directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc'
+make[3]: Leaving directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc'
+make[2]: Leaving directory `/home/gavahi/cryptopp-mvapich/contrib/hwloc'
+Making install in .
+make[2]: Entering directory `/home/gavahi/cryptopp-mvapich'
+  CC       src/pm/mpirun/mpirun_rsh.o
+In file included from /home/gavahi/cryptopp/install/include/cryptopp/wait.h:6:0,
+                 from ./src/pm/mpirun/mpirun_rsh.h:56,
+                 from src/pm/mpirun/mpirun_rsh.c:29:
+/home/gavahi/cryptopp/install/include/cryptopp/config.h:200:35: error: unknown type name ‘namespace’
+ #       define NAMESPACE_BEGIN(x) namespace x {
+                                   ^
+/home/gavahi/cryptopp/install/include/cryptopp/config.h:232:1: note: in expansion of macro ‘NAMESPACE_BEGIN’
+ NAMESPACE_BEGIN(CryptoPP)
+ ^
+/home/gavahi/cryptopp/install/include/cryptopp/config.h:200:47: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ #       define NAMESPACE_BEGIN(x) namespace x {
+                                               ^
+/home/gavahi/cryptopp/install/include/cryptopp/config.h:232:1: note: in expansion of macro ‘NAMESPACE_BEGIN’
+ NAMESPACE_BEGIN(CryptoPP)
+ ^
+In file included from /home/gavahi/cryptopp/install/include/cryptopp/cryptlib.h:103:0,
+                 from /home/gavahi/cryptopp/install/include/cryptopp/wait.h:10,
+                 from ./src/pm/mpirun/mpirun_rsh.h:56,
+                 from src/pm/mpirun/mpirun_rsh.c:29:
+/home/gavahi/cryptopp/install/include/cryptopp/stdcpp.h:14:18: fatal error: string: No such file or directory
+ #include <string>
+                  ^
+compilation terminated.
+make[2]: *** [src/pm/mpirun/mpirun_rsh.o] Error 1
+make[2]: Leaving directory `/home/gavahi/cryptopp-mvapich'
+make[1]: *** [install-recursive] Error 1
+make[1]: Leaving directory `/home/gavahi/cryptopp-mvapich'
+make: *** [install] Error 2

@@ -1,0 +1,1 @@
+Linux 3.10.0-693.2.2.el7.x86_64 x86_64 gcc gfortran gfortran g++ -DNDEBUG -DNVALGRIND -O2 -L/lib -L/lib -O2 -DNDEBUG -DNVALGRIND -O2 /home/gavahi/singularity/go_installation/go/bin:/home/gavahi/automake/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/gavahi/singularity/go/bin
