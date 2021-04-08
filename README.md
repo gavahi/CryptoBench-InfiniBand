@@ -10,6 +10,5 @@ We develop encrypted MPI libraries that are built on top of four cryptographic l
 
 All of these cryptographic libraries designed based on GCM approach and only are different in implantation. 
 
-Using these libraries, We empirically evaluate the performance of encrypted MPI communications with micro benchmarks and NAS parallel benchmarks on two networking technologies, 
-
+Using these libraries, We empirically evaluate the performance of encrypted MPI communications with micro benchmarks and NAS parallel benchmarks on two networking technologies:
 10Gbps Ethernet and 40Gbps InfiniBand QDR.
